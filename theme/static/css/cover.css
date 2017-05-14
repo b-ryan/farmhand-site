@@ -1,0 +1,51 @@
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+body {
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+
+.nav {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.nav a {
+  color: rgba(255,255,255,.5);
+}
+
+.home-section {
+    margin-top: 48px;
+    margin-bottom: 96px;
+}
+
+.home-hero {
+  text-align: center;
+}
+
+hr {
+    border-color: #eee;
+}
+
+a.brand,
+.brand {
+  font-family: 'Offside', cursive;
+  color: #f6c00e;
+}
+
+.footer {
+    text-align: center;
+}
